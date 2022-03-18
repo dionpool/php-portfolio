@@ -16,6 +16,7 @@
 <body>
    <div class="uk-section uk-container">
       <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1">
+         <!-- Login form -->
          <form class="uk-form-stacked js-login">
             <div class="uk-margin">
                <label class="uk-form-label" for="form-stacked-text">Email</label>
@@ -33,11 +34,15 @@
       
             <div class="uk-margin">
                <button class="uk-button uk-button-default" type="submit">Login</button>
+            </div>
          </form>
       </div>
    </div>
    
-   <!-- JavaScript -->
+   <!-- jQuery -->
+   <script src="js/jquery-3.6.0.min.js"></script>
+   
+   <!-- UI Kit JavaScript -->
    <script src="js/uikit.min.js"></script>
    <script src="js/uikit-icons.min.js"></script>
 </body>
